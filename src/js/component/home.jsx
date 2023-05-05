@@ -15,9 +15,7 @@ const Home = () => {
 			<Header/>
 			<div className="row mt-4 gx-4">
 			<Card/>
-			<Card/>
-			<Card/>
-			<Card/>
+			
 			</div>
 			</div>
 		<Footer/>
