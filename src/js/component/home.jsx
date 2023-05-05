@@ -13,11 +13,14 @@ const Home = () => {
 			<Navbar/>
 			<div className=" m-auto w-75 overflow-auto">	
 			<Header/>
-			<div className="row mt-4 gx-4">
-			<Card/>
 			
-			</div>
-			</div>
+			<div className="row" id="card-row">
+                    <Card/>
+                    <Card/>
+                    <Card/>
+                    <Card/>
+                </div>
+				</div>
 		<Footer/>
 		</div>
 	);
